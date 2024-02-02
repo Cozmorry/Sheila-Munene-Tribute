@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TRIBUTE TO SHEILA MUNENE </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        header {
+            background-color: rgba(55, 58, 58, 0.57);
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: wheat;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #f6f6f6;
+        }
+        h2 {
+            color: rgb(100, 99, 97);
+        }
+
+        p {
+            line-height: 1.6;
+            color: #0f0e0e;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .photo-gallery img {
+            max-width: 30%;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sheila Munene Tribute</h1>
+    </header>
+
+    <section>
+        <h2>About Sheila Munene</h2>
+        <p>Sheila Munene is a courageous, innovative, and beautiful individual. We shared the journey of primary school together and lived as hommies back in the days. She has been an good friend since we were young and always in a jovial mood. This is a heartfelt message to her from me that I value our friendship and always will. I urge her to keep up the good heart</p>
+    </section>
+
+    <section>
+        <h2>Her Photos</h2>
+        <div class="photo-gallery">
+            
+            <img src="img/Shilah(1).jpg" alt="Sheila Munene Photo 1">
+            <img src="img/Shilah(2).jpg" alt="Sheila Munene Photo 2">
+            <img src="img/Shilah(3).jpg" alt="Sheila Munene Photo 3">            
+            
+        </div>
+    </section>
+
+</body>
+</html>
